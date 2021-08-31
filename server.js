@@ -34,6 +34,7 @@ cors_proxy.createServer({
     'via',
     'connect-time',
     'total-route-time',
+    'accept-ranges',
     // Other Heroku added debug headers
     // 'x-forwarded-for',
     // 'x-forwarded-proto',
